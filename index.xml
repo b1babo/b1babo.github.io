@@ -1,39 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>LifeHunter</title>
-    <link>http://b1babo.github.io/</link>
-    <description>Recent content on LifeHunter</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <atom:link href="http://b1babo.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About me</title>
-      <link>http://b1babo.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://b1babo.github.io/about/</guid>
-      <description>skill project </description>
-    </item>
-    <item>
-      <title>hugo-hello</title>
-      <link>http://b1babo.github.io/posts/hugo-hello/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://b1babo.github.io/posts/hugo-hello/</guid>
-      <description>hello world test h1 test h2 </description>
-    </item>
-    <item>
-      <title>test obsidian publisher</title>
-      <link>http://b1babo.github.io/posts/test-obsidian-publisher/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://b1babo.github.io/posts/test-obsidian-publisher/</guid>
-      <description>test obsidian publisher&#xA;test obsidian publisher</description>
-    </item>
-    <item>
-      <title>项目</title>
-      <link>http://b1babo.github.io/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://b1babo.github.io/project/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LifeHunter</title>
+        <link>http://b1babo.github.io/</link>
+        <description>Hugo DoIt 主题官方文档</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language>
+            <atom:link href="http://b1babo.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>hugo-hello</title>
+    <link>http://b1babo.github.io/posts/hugo-hello/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://b1babo.github.io/posts/hugo-hello/</guid>
+    <description><![CDATA[ 1 hello world 1.1 test h1 1.1.1 test h2]]></description>
+</item><item>
+    <title>test obsidian publisher</title>
+    <link>http://b1babo.github.io/posts/test-obsidian-publisher/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+                        <name>b1babo</name><uri>https://b1babo.github.io</uri></author><guid>http://b1babo.github.io/posts/test-obsidian-publisher/</guid>
+    <description><![CDATA[test obsidian publisher
+test obsidian publisher]]></description>
+</item></channel>
 </rss>
