@@ -5,25 +5,5 @@
         <description>Hugo DoIt 主题官方文档</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-cn</language>
             <atom:link href="http://b1babo.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>How to use template</title>
-    <link>http://b1babo.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%A8%A1%E6%9D%BF/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-                        <name>b1babo</name><uri>https://b1babo.github.io</uri></author><guid>http://b1babo.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%A8%A1%E6%9D%BF/</guid>
-    <description><![CDATA[1 如何使用github publisher 2 再添加一张图片]]></description>
-</item><item>
-    <title>hugo-hello</title>
-    <link>http://b1babo.github.io/posts/hugo-hello/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>作者</name>
-    </author><guid>http://b1babo.github.io/posts/hugo-hello/</guid>
-    <description><![CDATA[ 1 hello world 1.1 test h1 1.1.1 test h2]]></description>
-</item><item>
-    <title>test obsidian publisher</title>
-    <link>http://b1babo.github.io/posts/test-obsidian-publisher/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-                        <name>b1babo</name><uri>https://b1babo.github.io</uri></author><guid>http://b1babo.github.io/posts/test-obsidian-publisher/</guid>
-    <description><![CDATA[test obsidian publisher
-test obsidian publisher]]></description>
-</item></channel>
+        </channel>
 </rss>
