@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - LifeHunter</title>
+        <link>http://b1babo.github.io/posts/</link>
+        <description>所有文章 | LifeHunter</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</lastBuildDate><atom:link href="http://b1babo.github.io/posts/" rel="self" type="application/rss+xml" /></channel>
+</rss>

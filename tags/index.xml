@@ -3,5 +3,12 @@
         <title>Tags - 标签 - LifeHunter</title>
         <link>http://b1babo.github.io/tags/</link>
         <description>Tags - 标签 - LifeHunter</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://b1babo.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</lastBuildDate><atom:link href="http://b1babo.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ctf</title>
+    <link>http://b1babo.github.io/tags/ctf/</link>
+    <pubDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://b1babo.github.io/tags/ctf/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
