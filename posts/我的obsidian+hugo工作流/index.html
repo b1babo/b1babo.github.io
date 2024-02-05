@@ -12,7 +12,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://b1babo.github.io/posts/%E6%88%91%E7%9A%84obsidian&#43;hugo%E5%B7%A5%E4%BD%9C%E6%B5%81/" /><meta property="og:image" content="http://b1babo.github.io/images/logo1.jpg" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-29T08:30:00+00:00" />
-<meta property="article:modified_time" content="2024-01-30T08:30:00+00:00" /><meta property="og:site_name" content="LifeHunter" />
+<meta property="article:modified_time" content="2024-02-06T07:13:00+00:00" /><meta property="og:site_name" content="LifeHunter" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="http://b1babo.github.io/images/logo1.jpg" /><meta name="twitter:title" content="我的obsidian&#43;hugo工作流"/>
@@ -34,8 +34,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http://b1babo.github.io/posts/%E6%88%91%E7%9A%84obsidian+hugo%E5%B7%A5%E4%BD%9C%E6%B5%81/"
-        },"image": ["http://b1babo.github.io/images/Apple-Devices-Preview.png"],"genre": "posts","keywords": "hugo, obsidian","wordcount":  1138 ,
-        "url": "http://b1babo.github.io/posts/%E6%88%91%E7%9A%84obsidian+hugo%E5%B7%A5%E4%BD%9C%E6%B5%81/","datePublished": "2024-01-29T08:30:00+00:00","dateModified": "2024-01-30T08:30:00+00:00","publisher": {
+        },"image": ["http://b1babo.github.io/images/Apple-Devices-Preview.png"],"genre": "posts","keywords": "hugo, obsidian","wordcount":  1223 ,
+        "url": "http://b1babo.github.io/posts/%E6%88%91%E7%9A%84obsidian+hugo%E5%B7%A5%E4%BD%9C%E6%B5%81/","datePublished": "2024-01-29T08:30:00+00:00","dateModified": "2024-02-06T07:13:00+00:00","publisher": {
             "@type": "Organization",
             "name": "bibabo","logo": {
                     "@type": "ImageObject",
@@ -138,7 +138,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><span class="author fas fa-user-circle fa-fw"></span><span class='screen-reader-text'>  </span><a href='http://b1babo.github.io/authors/b1babo'>b1babo</a></span>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"><i class="far fa-folder fa-fw"></i>知识管理</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-29">2024-01-29</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2024-01-30">2024-01-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1138 字&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-29">2024-01-29</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2024-02-06">2024-02-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1223 字&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -218,11 +218,17 @@
             alt="20240205082706.png">
     </a></figure></p>
 <h3 id="遇到的坑" class="headerLink">
-    <a href="#%e9%81%87%e5%88%b0%e7%9a%84%e5%9d%91" class="header-mark"></a>2.4 遇到的坑</h3><h4 id="移除markdown中的属性" class="headerLink">
-    <a href="#%e7%a7%bb%e9%99%a4markdown%e4%b8%ad%e7%9a%84%e5%b1%9e%e6%80%a7" class="header-mark"></a>2.4.1 移除markdown中的属性</h4><p>因为要使用obsidian publisher发布要在markdown 的文档属性设置<code>share:true</code>，可是hugo无法解析这个属性，因此在github action中发布hugo前，需要移除该<code>share:true</code>属性。</p>
-<h4 id="微信公众号新建草稿接口乱码问题" class="headerLink">
-    <a href="#%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7%e6%96%b0%e5%bb%ba%e8%8d%89%e7%a8%bf%e6%8e%a5%e5%8f%a3%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98" class="header-mark"></a>2.4.2 微信公众号新建草稿接口乱码问题</h4><p>该接口需要传入<code>gbk</code>编码的json，如果传入的是<code>utf-8</code>,会导致乱码</p>
-<div class="footnotes" role="doc-endnotes">
+    <a href="#%e9%81%87%e5%88%b0%e7%9a%84%e5%9d%91" class="header-mark"></a>2.4 遇到的坑</h3><h4 id="obsidian格式转化为hugo格式" class="headerLink">
+    <a href="#obsidian%e6%a0%bc%e5%bc%8f%e8%bd%ac%e5%8c%96%e4%b8%bahugo%e6%a0%bc%e5%bc%8f" class="header-mark"></a>2.4.1 obsidian格式转化为hugo格式</h4><p>想要使用hugo发布obsidian写出的内容，需要做一个转换</p>
+<h5 id="移除markdown中的属性" class="headerLink">
+    <a href="#%e7%a7%bb%e9%99%a4markdown%e4%b8%ad%e7%9a%84%e5%b1%9e%e6%80%a7" class="header-mark"></a>2.4.1.1 移除markdown中的属性</h5><p>因为要使用obsidian publisher发布要在markdown 的文档属性设置<code>share:true</code>，可是hugo无法解析这个属性，因此在github action中发布hugo前，需要移除该<code>share:true</code>属性。</p>
+<h4 id="微信公众号新建草稿接口8乱码问题" class="headerLink">
+    <a href="#%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7%e6%96%b0%e5%bb%ba%e8%8d%89%e7%a8%bf%e6%8e%a5%e5%8f%a38%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98" class="header-mark"></a>2.4.2 微信公众号新建草稿接口<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>乱码问题</h4><p><del>该接口需要传入<code>gbk</code>编码的json，如果传入的是<code>utf-8</code>,会导致乱码</del></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">	<span class="c1"># 包含文章内容的json</span>
+</span></span><span class="line"><span class="cl">   <span class="n">articles</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">   <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Content-Type&#39;</span><span class="p">:</span> <span class="s1">&#39;application/json; charset=utf-8&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">   <span class="n">datas</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">articles</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -246,6 +252,9 @@
 <li id="fn:7">
 <p><a href="https://mp.weixin.qq.com/advanced/advanced?action=dev&amp;t=advanced/dev&amp;token=331457186&amp;lang=zh_CN" target="_blank" rel="noopener noreferrer">公众号 (qq.com)</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
+<li id="fn:8">
+<p><a href="https://developers.weixin.qq.com/doc/offiaccount/Draft_Box/Add_draft.html" target="_blank" rel="noopener noreferrer">草稿箱 / 新建草稿 (qq.com)</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
 </div>
 </div>
@@ -254,7 +263,7 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2024-01-30</span>
+                <span>更新于 2024-02-06</span>
             </div>
             <div class="post-info-license"></div>
         </div>
