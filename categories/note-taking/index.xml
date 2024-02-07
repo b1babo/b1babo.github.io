@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>知识管理 - 分类 - LifeHunter</title>
-        <link>http://b1babo.github.io/categories/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</link>
-        <description>知识管理 - 分类 - LifeHunter</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</lastBuildDate><atom:link href="http://b1babo.github.io/categories/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="self" type="application/rss+xml" /><item>
+        <title>note-taking - 分类 - LifeHunter</title>
+        <link>http://b1babo.github.io/categories/note-taking/</link>
+        <description>note-taking - 分类 - LifeHunter</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</lastBuildDate><atom:link href="http://b1babo.github.io/categories/note-taking/" rel="self" type="application/rss+xml" /><item>
     <title>我的obsidian&#43;hugo工作流</title>
     <link>http://b1babo.github.io/posts/%E6%88%91%E7%9A%84obsidian&#43;hugo%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
     <pubDate>Mon, 29 Jan 2024 08:30:00 &#43;0000</pubDate><author>
